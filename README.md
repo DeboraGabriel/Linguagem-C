@@ -1,2 +1,2 @@
 # Linguagem C
- algoritmos feitos com linguagem C
+ resolução de exercícios feitos com linguagem C

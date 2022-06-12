@@ -1,7 +1,6 @@
-/*Faça um programa que leia
-um número inteiro positivo N e exiba todos
-os múltiplos de Y inferiores a N, onde N e Y
-são fornecidos pelo usuário.
+/*
+Faça um programa que leia um número inteiro positivo N e exiba todos os múltiplos de Y inferiores a N, 
+onde N e Y são fornecidos pelo usuário.
 Exemplo:
     N : 30
     Y :4
@@ -21,6 +20,8 @@ void main()
 	
 	printf("Informe um numero inteiro Y: ");
 	scanf("%d",&y);
+	printf("\n");
+	
 	//Exibindo os multiplos de Y inferiores a N
 	for(i=0;i<n;i=i+y)
 	{
@@ -28,7 +29,5 @@ void main()
 		{
 			printf("%d ", i);
 		}
-	}
-		
-	
+	}	
 }
